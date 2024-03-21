@@ -7,6 +7,10 @@
  </div>
 </template>
 
-<style scoped>
+<style>
+
+body {
+  background-color: #222222;
+}
 
 </style>
