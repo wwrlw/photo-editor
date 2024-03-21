@@ -70,8 +70,8 @@ export default {
       const b = pixel[2]; // Синий
 
       this.rgbString = `rgb(${r}, ${g}, ${b})`
-      this.x = x;
-      this.y = y;
+      this.x = Math.floor(x);
+      this.y = Math.floor(y);
     },
     removeEvent() {
       this.$refs.canvasElement.removeEventListener('mousemove', this.handleCanvasClick)
@@ -108,8 +108,8 @@ export default {
     }
 
     &__color {
-      width: 10px;
-      height: 10px;
+      width: 1rem;
+      height: 1rem;
     }
     p {
       color: #ffffff;

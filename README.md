@@ -33,3 +33,5 @@ npm run build
 ```sh
 npm run lint
 ```
+
+[Посетить Сайт!](http://photo-editor.std-2190.ist.mospolytech.ru/)
