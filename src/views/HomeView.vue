@@ -7,3 +7,7 @@ import AddPhoto from '../components/AddPhoto.vue'
     <AddPhoto />
   </main>
 </template>
+
+<style scoped lang="scss">
+
+</style>
